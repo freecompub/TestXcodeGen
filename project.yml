@@ -1,0 +1,12 @@
+name: ios_objc_mix
+
+targets:
+  ios_objc_mix:
+    type: application
+    platform: iOS
+    sources:
+      - path: ios_objc_mix
+
+
+
+
