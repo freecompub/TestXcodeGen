@@ -306,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ios_objc_mix/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ios_objc_mix/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -409,6 +411,7 @@
 				);
 				MARKETING_VERSION = 1.3.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "AFS.Retraite.ARE-RECETTE";
 				PRODUCT_MODULE_NAME = ios_objc_mix;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "ios_objc_mix/ios_objc_mix-Bridging-Header.h";
@@ -498,6 +501,7 @@
 				);
 				MARKETING_VERSION = 1.3.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "AFS.Retraite.ARE-RECETTE";
 				PRODUCT_MODULE_NAME = ios_objc_mix;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "ios_objc_mix/ios_objc_mix-Bridging-Header.h";
