@@ -21,6 +21,21 @@ targets:
         ONLY_ACTIVE_ARCH: "YES"
         DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
         SWIFT_VERSION: 5
+  MixTest:
+    platform: iOS
+    type: bundle.unit-test
+    deploymentTarget: 17
+    sources:
+      - path: ios_objc_mixTests
+    settings:
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        SWIFT_VERSION: 5
+    dependencies:
+      - target: ios_objc_mix
+    scheme:
+      management:
+        isShown: false
+
 
 
 
